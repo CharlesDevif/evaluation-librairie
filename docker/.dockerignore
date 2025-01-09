@@ -1,0 +1,20 @@
+# Ignorer le dossier vendor
+App/vendor
+
+# Ignorer les fichiers ou dossiers de versionnement Git
+.git
+.gitignore
+
+# Ignorer les fichiers temporaires de l'éditeur
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignorer les fichiers de cache PHP
+cache/
+*.log
+
+# Ignorer les fichiers spécifiques à l'environnement local
+.env*
+App/exempleenv.txt
